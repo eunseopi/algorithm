@@ -1,0 +1,16 @@
+let fs = require("fs");
+let input = fs.readFileSync('/dev/stdin').toString().split(' ');
+
+let number = Number(input[0]);
+
+if(number >= 90 && number <= 100){
+    console.log("A");
+}else if(number >= 80 && number < 90){
+    console.log("B");
+}else if(number >= 70 && number < 80){
+    console.log("C");
+}else if(number >= 60 && number < 70){
+    console.log("D");
+}else{
+    console.log("F");
+}
