@@ -20,3 +20,4 @@ console.log(sum(1, 10));
 // 1 + sum(1,0);
 
 // -> 기저 조건 if (high === low) return low; 를 넣어줘야 무한 재귀 탈출 !
+

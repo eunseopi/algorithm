@@ -9,6 +9,7 @@ function extractNum(array) {
 }
 
 
+
 extractNum([
     1,
     2,
